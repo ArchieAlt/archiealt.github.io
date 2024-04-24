@@ -1,12 +1,12 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
-  text-align: center;
+  text-align: center; /* Center align the links */
   border-bottom: 2px solid black;
   position: fixed;
   width: 100%;
   z-index: 1000;
-  top: 0; /* Ensure the navbar is at the top */
+  top: 20px; /* Position the navbar 20 pixels above the top */
 }
 
 .topnav a {
@@ -16,6 +16,7 @@
   padding: 14px 16px;
   display: inline-block;
 }
+
 
 .footer {
   position: fixed;
@@ -36,9 +37,9 @@
 }
 
 .main {
-  margin-top: 50px; /* Adjusted margin-top for the main content */
+  margin-top: 70px; /* Adjusted margin-top for the main content (20px navbar + 50px margin) */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 50px); /* Adjusted height to ensure content is centered vertically */
+  height: calc(100vh - 70px); /* Adjusted height to ensure content is centered vertically */
 }
