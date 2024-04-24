@@ -43,11 +43,7 @@
   margin: 160px auto; /* Changed margin to center horizontally */
 }
 
-.mainbox{
-  background-color: lightgrey;
-  width: 600px;
-  border: 5px solid black; /* Added border style */
-  padding: 10px;
-  margin: 160px auto; /* Changed margin to center horizontally */
+.main{
+  margin:160px;
 }
 
