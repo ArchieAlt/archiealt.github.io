@@ -42,15 +42,12 @@
   padding: 10px;
   margin: 160px auto; /* Changed margin to center horizontally */
 }
-.mainshit {
-  margin-top: 20px; /* Add a top margin to avoid content overlay */
-  display: block;
-  width: 800px; /* suitable for 800x600 displays? */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px outset white;
-  text-decoration-color:white;
-  background-color: black;
-  font-family: serif;
+
+.mainbox{
+  background-color: lightgrey;
+  width: 800px;
+  border: 5px solid black; /* Added border style */
+  padding: 10px;
+  margin: 160px auto; /* Changed margin to center horizontally */
 }
+
