@@ -6,6 +6,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
+  top: 0; /* Ensure the navbar is at the top */
 }
 
 .topnav a {
@@ -31,13 +32,13 @@
   width: 300px;
   border: 5px solid black;
   padding: 10px;
-  margin: auto; /* Center the box horizontally */
+  margin: auto;
 }
 
 .main {
-  margin-top: 130px;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
-  max-width: 800px;
+  margin-top: 50px; /* Adjusted margin-top for the main content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px); /* Adjusted height to ensure content is centered vertically */
 }
