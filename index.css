@@ -1,0 +1,55 @@
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: FFFFFF;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float:left;
+}
+
+.sidenav a {
+   padding: 10px;	
+  display: block;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ .box {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid black; /* Added border style */
+  padding: 10px;
+  margin: 160px auto; /* Changed margin to center horizontally */
+}
+.mainshit {
+  margin-top: 20px; /* Add a top margin to avoid content overlay */
+  display: block;
+  width: 800px; /* suitable for 800x600 displays? */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px outset white;
+  background-color: black;
+  font-family: serif;
+}
