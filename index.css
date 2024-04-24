@@ -43,3 +43,8 @@
   align-items: center;
   height: calc(100vh - 70px); /* Adjusted height to ensure content is centered vertically */
 }
+.vertical-text {
+  writing-mode: vertical-rl; /* Set vertical writing mode */
+  transform: rotate(180deg); /* Rotate the text */
+}
+
