@@ -17,7 +17,6 @@
   display: inline-block;
 }
 
-
 .footer {
   position: fixed;
   left: 0;
@@ -44,4 +43,3 @@
   height: calc(100vh - 70px); /* Adjusted height to ensure content is centered vertically */
   width: 600px;
 }
-
