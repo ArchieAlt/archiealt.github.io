@@ -42,4 +42,5 @@
   align-items: center;
   height: calc(100vh - 70px); /* Adjusted height to ensure content is centered vertically */
   width: 600px;
+  margin:160px ;
 }
