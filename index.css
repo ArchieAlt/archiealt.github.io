@@ -1,7 +1,7 @@
 
-.sidenav {
-  height: 100%;
-  width: 160px;
+.topnav{
+  height: 30px;
+  width: auto;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -9,10 +9,10 @@
   background-color: FFFFFF;
   overflow-x: hidden;
   padding-top: 20px;
-  float:left;
+  float:center;
 }
 
-.sidenav a {
+.topnav a {
    padding: 10px;	
   display: block;
 }
