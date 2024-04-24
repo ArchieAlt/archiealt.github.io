@@ -1,5 +1,7 @@
 
 .topnav{
+  border:3 px;
+  margin:160px;
   height: 30px;
   width: auto;
   position: fixed;
