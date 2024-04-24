@@ -50,7 +50,7 @@
   margin-left: auto;
   margin-right: auto;
   border: 1px outset white;
-  color:white;
+  text-decoration-color:white;
   background-color: black;
   font-family: serif;
 }
