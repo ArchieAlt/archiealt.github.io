@@ -3,7 +3,6 @@
   border:3 px;
   height: 30px;
   width: auto;
-  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -14,7 +13,6 @@
 }
 
 .topnav a {
-   padding: 10px;	
   display: block;
 }
 
