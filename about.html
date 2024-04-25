@@ -8,70 +8,168 @@
 	<style>
 
 
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: FFFFFF;
-  overflow-x: hidden;
-  padding-top: 20px;
-  float:left;
-}
+  # {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
 
-.sidenav a {
-   padding: 10px;	
-  display: block;
-}
+        html,
+        body {
+            height: 100%;
+        }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  border-width:2px;
-}
+        body {
+            background: url('/black-hole-11202.gif');
+            background-color: black;
+            background-size: 100%;
+            background-position: center;
+            color: white;
+        }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-  font-size:15px;
-}
+        /* Main Text */
+        .ParaMain {
+            margin: 10px 10px 10px 10px;
+        }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+        .ParaMainNYA {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .container {
+            align-content: center;
+            text-align: center;
+        }
+
+        .div1,
+        .div2,
+        .div3 {
+            border: 1px solid white;
+            padding-bottom: 25px;
+        }
+
+        .link0 {
+            color: #FF55FF;
+        }
+
+        .link0:hover {
+            color: #6F30FF;
+        }
+
+        /* .link0:visited{color: #6F30FF;} */
+
+        .outerdiv1,
+        .outerdiv2,
+        .outerdiv3 {
+            float: left;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            margin: 5px;
+            margin-left: 85px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            top: 0;
+            /* Position the navbar at the top of the page */
+            width: 800px;
+            /* Half width */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            margin-bottom: 0px;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 4px 16px;
+            /* <Height> than <Width> */
+            text-decoration: none;
+            font-family: serif;
+        }
+
+        /* Change background on mouse-over */
+        .navbar a:hover {
+            background-color: midnightblue;
+            color: white;
+        }
+
+        /* Main Divs */
+        .Main {
+            margin-top: 20px;
+            /* Add a top margin to avoid content overlay */
+            display: block;
+            width: 800px;
+            /* suitable for 800x600 displays? */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            background-color: black;
+            font-family: serif;
+        }
+
+        .HeaderPrefs {
+            text-align: center; /* Center the header text */
+            margin-top: 50px; /* Adjust top margin as needed */
+            font-size: 24px; /* Adjust font size as needed */
+            color: #FFFFFF; /* Text color */
+            font-family: Arial, sans-serif; /* Specify font family */
+        }
+
+        .LogoPara {
+            text-align: center;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-family: serif;
+        }
+
+        .Footer {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 802px;
+            display: block;
+			border: 1px outset white;
+			padding: 15px;
+			 
+        }
 </style>
 <body>
-	
-	<div class="sidenav">
+	<div class="HeaderPrefs">
+		<div class="Main">
+		<h1>About Archie</h1>
+		</div>
+	</div>
+	<div class="navbar">
   <a href="index.html" >Main Page</a>
   <a href="about.html">About</a>
   <a href="how.html" >How I made this site ?</a>
   <a href="contact.html">Contact</a>
 </div>
 
-<div class="main">
-	<h1 style="float:center">About Me</h1>
+<div class="Main">
+	<h1 style="text-align:center">About Me</h1>
 	<p>This page Will talk about me</p>
 	<p>I am Archie , I am the owner of the site and I fully made it by myself :O</p>
-	<h2>Who are you</h2>
+	<h2 style="text-align:center">Who are you</h2>
 	<p>I am a 14 year old boy from Eastern Europe who is VERY interested in IT and computing and stuff.</p>
 	<p>I also speak 3 languages ( Bosnian , English and German) , so feel free to email me in German or in Bosnian . </p>
 	<p>I have used computers since I was 3 and I started learning programming at 12.If you want to learn more please contact me using the mail provided on the <a href="contact.html">Contacts</a> page !</p>
 	<p>I am currently learning C and C++ with HTML . </p>
-	<h2>Your specs ?</h2>
+	<h2 style="text-align:Center">Your specs ?</h2>
 	<p>I got <a href="https://pcpartpicker.com/list/wRMjDZ">This PC</a> last year around May , but you don't need all of this to learn either programming or some other things !</p>
 	<p>I actually used a Core 2 Duo MacBook (which was older than me lol) to learn Python and start my journey in programming !</p>
 	<p>I don't really recommend using a Core 2 Duo laptop to learn programming in 2024 unless you want to suffer.You can , but be advised that its really slow and it's better to get more recent hardware !</p>
-	<h2>Your interests ?</h2>
+	<h2  style="text-align:Center">Your interests ?</h2>
 	<p>Well I really like Computers and programming(duh) , but I also like small electronics and I want to be an Electrical Engineer !</p>
 	<p>This isn't my only hobby since I also like D&D and cars , specifically formula 1 cars and european cars :) </p>
 	<p>I also like Music and I play guitar , my favourite genres are Metal and Hip Hop 8) </p>
