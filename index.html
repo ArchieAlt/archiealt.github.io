@@ -1,32 +1,174 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
     <title>Archie Main Page</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png">
+    <style>
+        # {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background: url('/black-hole-11202.gif');
+            background-color: black;
+            background-size: 100%;
+            background-position: center;
+            color: white;
+        }
+
+        /* Main Text */
+        .ParaMain {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .ParaMainNYA {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .container {
+            align-content: center;
+            text-align: center;
+        }
+
+        .div1,
+        .div2,
+        .div3 {
+            border: 1px solid white;
+            padding-bottom: 25px;
+        }
+
+        .link0 {
+            color: #FF55FF;
+        }
+
+        .link0:hover {
+            color: #6F30FF;
+        }
+
+        /* .link0:visited{color: #6F30FF;} */
+
+        .outerdiv1,
+        .outerdiv2,
+        .outerdiv3 {
+            float: left;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            margin: 5px;
+            margin-left: 85px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            top: 0;
+            /* Position the navbar at the top of the page */
+            width: 800px;
+            /* Half width */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            margin-bottom: 0px;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 4px 16px;
+            /* <Height> than <Width> */
+            text-decoration: none;
+            font-family: serif;
+        }
+
+        /* Change background on mouse-over */
+        .navbar a:hover {
+            background-color: midnightblue;
+            color: white;
+        }
+
+        /* Main Divs */
+        .Main {
+            margin-top: 20px;
+            /* Add a top margin to avoid content overlay */
+            display: block;
+            width: 800px;
+            /* suitable for 800x600 displays? */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            background-color: black;
+            font-family: serif;
+        }
+
+        .HeaderPrefs {
+            text-align: center; /* Center the header text */
+            margin-top: 50px; /* Adjust top margin as needed */
+            font-size: 24px; /* Adjust font size as needed */
+            color: #FFFFFF; /* Text color */
+            font-family: Arial, sans-serif; /* Specify font family */
+        }
+
+        .LogoPara {
+            text-align: center;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-family: serif;
+        }
+
+        .Footer {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 802px;
+            display: block;
+			border: 1px outset white;
+			padding: 15px;
+			 
+        }
+    </style>
 </head>
 
 <body>
-  
+	<div class="Main">
+		<div class="HeaderPrefs">
+			<h1>Archie Main Page</h1>
+		</div>
+	</div>
+    <div class="navbar">
+        <a href="index.html">Main Page</a>
+        <a href="about.html">About</a>
+        <a href="how.html">How I made this site ? </a>
+        <a href="contact.html">Contact</a>
+    </div>
 
-  
-        <h1 style="text-align:center;">Main Page</h1>
-        <p>Hello, This is my Page that I will be hosting on the internet.</p>
-        <p>This site was made using my own HTML skills and GitHub Pages, if you want to make your own website like this one go to my <a href="how.html">how it's made</a> page.</p>
-        <p>If you want to learn more about me, you can read it <a href="about.html">here</a> or contact me. For contacts, just go to <a href="contact.html">this</a> page.</p>
-        <p>Anyways, you might wonder why this site looks like it came straight from the early 2000s or late 90s, that is my personal choice since I like the aesthetic :)</p>
-        <p>At some point, I will start doing tutorials for this site, but for now, I will only recommend some tutorial sites. More on those at <a href="how.html">How It's made</a>.</p>
-     
-            <h2>ChangeLog :</h2>
-            <ul>
-                <li>Updated the site!</li>
-                <li>Removed open new tab when changing the page (it was annoying).</li>
-                <li>Added this ChangeLog box.</li>
-                <li>BROKE THE MAIN PAGE MAINTANANCE IS GOING TO BE SCHEDULED FOR TOMMOROW</li>
-            </ul>
-    
-
+    <div class="Main">
+            <h2>Introduction</h2>
+			<p>Hello my name is Archie , I am a 14 year old guy from Bosnia ! This is my site.</p>
+			<p>This site is made with GitHub Pages and my own HTML skills , to learn more go to <a href="how.html"> This Page</a> </p>
+			<p alt="THIS IS A FILLER"></p>
+			<iframe src="https://www.spacejam.com/" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+			<p style="text-align:center ; color:yellow ">The Inspiration for this site</p>
+			<h2>Explanation</h2>
+			<p>This site is made to educate others how to program in a couple of languages and make your own website like this ! (coming soon) </p>
+			<p>Everything you need is on the top navigation bar !</p>
+    </div>
+    <div class="Footer">
+       <center>Made by Archie 2024</center>
+    </div>
 </body>
 
 </html>
