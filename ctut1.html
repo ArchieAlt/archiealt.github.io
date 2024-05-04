@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>C Tutorial 1</title>
+	</head>
+<style>
+
+
+  # {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-image: url('/images/XzZg.gif');
+            background-color: black;
+            background-size: 100%;
+            background-position: center;
+            color: white;
+        }
+
+        /* Main Text */
+        .ParaMain {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .ParaMainNYA {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .container {
+            align-content: center;
+            text-align: center;
+        }
+
+        .div1,
+        .div2,
+        .div3 {
+            border: 1px solid white;
+            padding-bottom: 25px;
+        }
+
+        .link0 {
+            color: #FF55FF;
+        }
+
+        .link0:hover {
+            color: #6F30FF;
+        }
+
+        /* .link0:visited{color: #6F30FF;} */
+
+        .outerdiv1,
+        .outerdiv2,
+        .outerdiv3 {
+            float: left;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            margin: 5px;
+            margin-left: 85px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            top: 0;
+            /* Position the navbar at the top of the page */
+            width: 800px;
+            /* Half width */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            margin-bottom: 0px;
+			text-align:center;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 4px 16px;
+            /* <Height> than <Width> */
+            text-decoration: none;
+            font-family: serif;
+        }
+
+        /* Change background on mouse-over */
+        .navbar a:hover {
+            background-color: midnightblue;
+            color: white;
+        }
+
+        /* Main Divs */
+        .Main {
+            margin-top: 20px;
+            /* Add a top margin to avoid content overlay */
+            display: block;
+            width: 800px;
+            /* suitable for 800x600 displays? */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px outset white;
+            background-color: black;
+            font-family: serif;
+        }
+
+        .HeaderPrefs {
+            text-align: center; /* Center the header text */
+            margin-top: 50px; /* Adjust top margin as needed */
+            font-size: 24px; /* Adjust font size as needed */
+            color: #FFFFFF; /* Text color */
+            font-family: Arial, sans-serif; /* Specify font family */
+        }
+
+        .LogoPara {
+            text-align: center;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-family: serif;
+        }
+
+        .Footer {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 802px;
+            display: block;
+			border: 1px outset white;
+			padding: 15px;
+		background-color:black;
+			 
+        }
+</style>
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="how.html">Tutorials Page</a>
+		<a href="Ctut.html">C Page</a>
+	</div>
+	<div class="Main">
+		<p>Hello ! This is my first C tutorial . In this one we will set up our IDE and compiler !</p>
+		<h2>What is C ?</h2>
+		<p>C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targeted CPUs. It has found lasting use in operating systems, device drivers, and protocol stacks, but its use in application software has been decreasing.[7] C is commonly used on computer architectures that range from the largest supercomputers to the smallest microcontrollers and embedded systems. (Source : <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">Wikipedia</a>)</p>
+		<h2>CodeBlocks</h2>
+		<p>Code::Blocks is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable.Built around a plugin framework, Code::Blocks can be extended with plugins. Any kind of functionality can be added by installing/coding a plugin. For instance, event compiling and debugging functionality is provided by plugins!</p>
+		<h2>Installing CodeBlocks</h2>
+		<p>First of all we are going to install the IDE , CodeBlocks.It's very simple so let's do it !</p>
+		<p>Go to the <a href="https://www.codeblocks.org/">CodeBlocks Official Site</a> and go to their download page. Go to Binary or Nigthly releases (depending if you want recently updated) and select CodeBlocks-setup.exe</p>
+		<p>I have tried to download it with the MinGW compiler included but it couldn't load the compiler.</p>
+		<h2>Installing MinGW</h2>
+		<p>You are going to install MinGW installation manager, go to this <a href="https://sourceforge.net/projects/mingw/">SourceForge page</a> after you run the exe just follow the instructions ! </p>
+		<p>Once you are in the MingGW IM(installation manager) you are going to met with a screen like this <img src="C:\Users\Korisnik\Desktop\archiealt.github.io-main\images\tut.png" style="Height:300px; Width:600px;"></p>
+		<p>Select all the packages by clicking Right Mouse Button and selecting : "Mark For Installation" button. Once you have selected the packages then you will click Installation button and click update catalouge.Then just close it when it says it's finished.</p>
+		<p>And you're done ! Once you run CodeBlocks it should just load the mingw compiler , if it doesn't still work go into CodeBlocks , press settings and select compiler.Then select MinGW !</p>
+	</div>
+</body>
+</html>
